@@ -1,0 +1,138 @@
+body {
+  /* background: linear-gradient(#ffffff, #8bd1fa); */
+  background-color: #f8f9fa;
+  margin: 0px;
+  height: 100%;
+}
+
+button.primary-btn {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #007bff;
+}
+
+button.primary-btn:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+.details {
+  background-color: #0069d9;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.details code {
+  color: #fff;
+}
+
+select {
+  margin-left: 8px;
+}
+
+.primary-inp {
+  padding: 10px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.primary-inp:focus {
+  border: 1px solid #6fa7df;
+}
+
+.App {
+  font-family: "Trebuchet MS";
+  font-size: 1rem;
+  font-weight: 1.5;
+  line-height: 1.5;
+  color: #0b0a0a;
+  padding: 0 10px;
+  /* background-color: aliceblue; */
+  /* position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Multiselect {
+  color: #000000;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  width: 600px;
+}
+
+.search-type {
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.form-outline {
+  /* align-items: center; */
+  /* display: flex; */
+  /* width: 450px; */
+  /* justify-content: center; */
+  /* height: 50px; */
+  margin: 50px;
+}
+
+.sort-button {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* height: 50px; */
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+.main {
+  width: 80%;
+}
+
+.card {
+  padding: 1px;
+  /* border-radius: 10px; */
+  border: 0;
+}
+
+.card-body {
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+
+  box-shadow: 5px 5px #888888;
+}
+
+.loading {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
